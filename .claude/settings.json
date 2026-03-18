@@ -1,0 +1,19 @@
+{
+  "project": {
+    "name": "Delta Oracle",
+    "purpose": "Data Engineering for alphab"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(bun:*)",
+      "Bash(npm:*)",
+      "Bash(cargo:*)",
+      "Bash(python:*)",
+      "Bash(psql:*)",
+      "Bash(gh:*)",
+      "Bash(git:*)",
+      "Read(**)",
+      "Write(**)"
+    ]
+  }
+}

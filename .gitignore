@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.*
+
+# Credentials
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Data files (large)
+*.parquet
+*.csv
+*.json.gz
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
