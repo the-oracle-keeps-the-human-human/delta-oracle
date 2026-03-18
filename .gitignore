@@ -24,3 +24,16 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Other agent configs (Delta uses Claude Code)
+.opencode/
+.codex/
+.gemini/
+.agent/
+.github/
+skills/
+
+# Claude skills content (keep manifest)
+.claude/skills/**/
+!.claude/skills/
+!.claude/skills/.oracle-skills.json
