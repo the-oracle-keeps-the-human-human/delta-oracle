@@ -1,10 +1,13 @@
 # Environment
 .env
+
 .env.*
+.env.local
 
 # Credentials
 credentials.json
 secrets.json
+
 *.pem
 *.key
 
@@ -28,12 +31,7 @@ Thumbs.db
 # Other agent configs (Delta uses Claude Code)
 .opencode/
 .codex/
-.gemini/
-.agent/
+.gemini
+.agent
 .github/
 skills/
-
-# Claude skills content (keep manifest)
-.claude/skills/**/
-!.claude/skills/
-!.claude/skills/.oracle-skills.json
